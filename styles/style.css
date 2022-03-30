@@ -1,0 +1,156 @@
+
+body
+{   
+    padding: 0;
+    margin: 0;
+
+    /* font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px; */
+}
+header
+{
+    height: 50px;
+    background-color: #2A2732 ;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+width: 1280px;
+text-align: center;
+margin: auto;
+
+}
+ul
+{
+    display: block;
+    margin: 0px;
+    padding-top: 13px;
+    
+    
+}
+ul img ,ul a
+{   
+    margin-right: 79px;
+    vertical-align: middle;
+}
+ul a
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color:#9B9AAF;
+    text-decoration: none;
+}
+
+/*  iphone13_pro_section*/
+.iphone13_pro_section
+{
+    position: relative;
+    height: 580px;
+
+}
+.iphone13_pro_section h1
+{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #000000;
+    margin-top: 0px;
+    padding-top: 39px;
+    margin-bottom: 0px;
+}
+.iphone13_pro_section h3
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    height: 40px;
+    margin: 0px;
+}
+.iphone13_pro_section a
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #5278D8;
+    text-decoration: none;
+    height: 33px;
+    margin: 0px;
+}
+.iphone13_pro_section a img
+{
+    width: 5px;
+    height: 11px;
+}
+.img_iphone13_pro
+{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    
+}
+/* iphone13_section */
+.iphone13_section
+{
+position: relative;
+height: 580px;
+background: #3E2E46;
+}
+.iphone13_section h1
+{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 67px;
+}
+.iphone13_section p
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #F9BBF2;
+    margin: 0px;
+}
+.iphone13_section a
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #5278D8;
+    text-decoration: none;
+    height: 33px;
+    margin: 0px;
+}
+.iphone13_section img
+{
+    position: absolute;
+    bottom: 0px;
+    left: 224px;
+}
+
+/* ELSE */
+.else
+{
+    height: 823px;
+}
