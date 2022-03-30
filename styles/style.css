@@ -17,9 +17,9 @@ header
 }
 .container
 {
-width: 1280px;
-text-align: center;
-margin: auto;
+    width: 1280px;
+    text-align: center;
+    margin: auto;
 
 }
 ul
@@ -35,6 +35,7 @@ ul img ,ul a
     margin-right: 79px;
     vertical-align: middle;
 }
+
 ul a
 {
     font-family: 'Roboto';
@@ -45,13 +46,21 @@ ul a
     color:#9B9AAF;
     text-decoration: none;
 }
+.more_info:hover
+{
+text-decoration: underline;
+}
+
+ul a:hover
+{
+    color:white ;
+}
 
 /*  iphone13_pro_section*/
 .iphone13_pro_section
 {
     position: relative;
     height: 580px;
-
 }
 .iphone13_pro_section h1
 {
@@ -103,9 +112,9 @@ ul a
 /* iphone13_section */
 .iphone13_section
 {
-position: relative;
-height: 580px;
-background: #3E2E46;
+    position: relative;
+    height: 580px;
+    background: #3E2E46;
 }
 .iphone13_section h1
 {
@@ -153,4 +162,49 @@ background: #3E2E46;
 .else
 {
     height: 823px;
+}
+
+
+
+/* 2 PAGE */
+
+.container2
+{
+    position: relative;
+}
+.container2 h1
+{
+    width: 1280px;
+    text-align: center;
+    margin: auto;
+}
+
+.ass
+{   font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 67px;
+
+    padding-top: 300px;
+
+    color: #df75d2;
+}
+.container2 p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.img_pg2_fon1
+{
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.img_pg2_fon2
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
